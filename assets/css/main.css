@@ -1426,9 +1426,13 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			/* width: 50%; */
+			width: 50%;
 			position: relative;
 			opacity: 1.0;
+		}
+
+		.gallery .fullwidth {
+			width: 100% !important;
 		}
 
 			.gallery article .image {
